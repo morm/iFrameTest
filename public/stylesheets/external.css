@@ -170,6 +170,7 @@ html, body {
  background-color: #0b4e92;
 }
 
+.button_search:hover,
 .button_fixed_once:hover {
  background-color: #d3cfcd;
 }
