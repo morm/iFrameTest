@@ -19,8 +19,7 @@ html, body {
  background-color: #0b4e92;
  background: #0b4e92;
 }
-
-.button_light, 
+ 
 .link, 
 .datepicker-switch, 
 .select2-choice, 
@@ -163,4 +162,14 @@ html, body {
 
 .search-location__day_today {
  border-color: #ca333f;
+}
+
+.button_light,
+.button_fixed_once {
+ color: #eee;
+ background-color: #0b4e92;
+}
+
+.button_fixed_once:hover {
+ background-color: #d3cfcd;
 }
