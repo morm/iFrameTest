@@ -1,3 +1,13 @@
+html, body {
+ background: rgba(0,0,0,0);
+}
+.page:before {
+ background-image: url("http://wallpapercraft.net/wp-content/uploads/2016/10/Sparkle-image-download.jpg");
+}
+.page {
+ background-color: rgba(0,0,0,0);
+}
+
 .search-request, 
 .button, 
 .select2-results .select2-highlighted,
@@ -5,53 +15,41 @@
 .datepicker-years .month:hover,
 .datepicker-months .year:hover,
 .datepicker-years .year:hover,
-.spa_btn-cstyle3,
-.button {
- background-color: #009ee0;
- background: #009ee0;
+.spa_btn-cstyle3 {
+ background-color: #0b4e92;
+ background: #0b4e92;
 }
 
-.link, .datepicker-switch, .select2-choice, .footer__privacy, .profile__terms-link {
- color: #009ee0 !important;
+.button_light, 
+.link, 
+.datepicker-switch, 
+.select2-choice, 
+.footer__privacy,
+.profile__terms-link {
+ color: #0b4e92 !important;
 }
 
+.link:hover,
+.profile__terms-link:hover,
 .spa_btn-cstyle3:hover,
 .button:hover {
-  background-color: #4cb5e0;
-  background: #4cb5e0;
+ color: #2264a7 !important;
 }
 
+.link:active,
 .spa_btn-cstyle3:active,
 .spa_btn-cstyle3:focus,
 .button:active,
 .button__active {
-  background-color: #0374a3;
-  background: #0374a3;
-}
-
-.link:hover,
-.profile__terms-link:hover {
- color: #4cb5e0 !important;
-}
-
-.link:active
- color: #0374a3 !important;
+ color: #133b63 !important;
 }
 
 .link:visited {
- color: #009ee0 !important;
+ color: #0b4e92 !important;
 }
 
-.button,
-.spa_btn-cstyle3,
-.button_light-dark {
- color: #eee !important;
-}
-.button_light {
- color: #0000;
-}
 .select2-arrow > b::before {
- color: #009ee0
+ color: #0b4e92
 }
 
 .field__icon.field__icon_map > use {
@@ -59,78 +57,78 @@
 }
 
 .field__icon {
- fill: #009ee0 !important;
+ fill: #0b4e92 !important;
 }
 
-.field__icon:hoverr {
- fill: #4cb5e0 !important;
+.field__icon:hover {
+ fill: #2264a7 !important;
 }
 
 .prev:hover,
 .next:hover,
 .search-presentation .select2-arrow b:before {
- color: #4cb5e0;
+ color: #2264a7 !important;
 }
 
 .field__icon:active {
- fill: #0374a3 !important;
+ fill: #133b63;
 }
 
 .select2-arrow b::after {
- border-top-color: #009ee0;
+ border-top-color: #0b4e92;
 }
 
-.time-range__sort:after {
- border-top-color: #eee;
+.time-range__sort::after {
+ border-top-color: #0b4e92;
 }
 
 .time-range__sort:before {
- border-bottom-color: #eee;
+ border-bottom-color: #0b4e92;
 }
 
 .datepicker-days td:hover {
- background: #009ee0;
+	background: #0b4e92;
 }
 
 .datepicker-days td.active {
- background: #0374a3;
+	background: #133b63;
 }
 
 .datepicker-days td:hover,
 .datepicker-days td.active {
- color: #fff;
- border-color: #009ee0;
+	color: #fff;
+	border-color: #0b4e92;
 }
 
 .time__label {
- background-color: #92b6c5;
+ background-color: #a6b9cc;
 }
 
 .time__label_pm {
- background-color: #699eb4;
+ background-color: #7c93aa;
 }
 
 .time__label:hover {
  color: #fff;
- background-color: #4cb5e0;
+ background-color: #2264a7;
 }
 
 .time__input:checked + .time__label {
  color: #fff;
- background-color: #0374a3;
+ background-color: #133b63;
 }
 
 .time-range__bar::before {
- background-color: #009ee0;
+ background-color: #0b4e92;
 }
 
 .time-range__track {
- background: linear-gradient(to right, #009ee0 0%, #4cb5e0 50%, #009ee0 100%);
+ background: linear-gradient(to right, #0b4e92 0%, #2264a7 50%, #0b4e92 100%);
 }
 
 .checkbox__label::after {
- border-bottom: 5px #009ee0 solid;
- border-left: 5px #009ee0 solid;
+ border-bottom: 5px #0b4e92 solid;
+ border-left: 5px #0b4e92 solid;
 }
 
 .time__label_disabled {
@@ -140,33 +138,29 @@
 
 .time__label_disabled2 {
  color: #ccc;
- background-color: #636370;
+ background-color: #636050;
 }
 
 .scroll-bar {
- background-color: #1c5d90;
+ background-color: #a6b9cc;
 }
 
 .scroll-bar:hover {
- background-color: #549bd3;
+ background-color: #c4d9ee;
 }
 
 .scroll-bar:active {
- background-color: #00335b;
+ background-color: #7c93aa;
 }
 
 .time-range__bar {
- background-color: #5599cc;
+ background-color: #ca333f;
 }
 
-.field__label, .search-location__period, .search-location__date {
- color: #008385;
+.page__header-inner, .field__label, .search-location__period, .search-location__date {
+ color: #ca333f;
 }
 
 .search-location__day_today {
- border-color: #008385;
-}
-
-.search-presentation .select2-arrow b:before { 
- background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iY2hldnJvbi1kb3duIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIGZpbGw9IiMwMDllZTAiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSIyNTYuMDAyLDI2NS42MDIgMTMwLjU2LDEzOC45OTcgMTMwLjU2LDI0Ni4zODkgMjU2LjAwMiwzNzMuMDAzIDM4MS40NCwyNDYuMzg5IDM4MS40NCwxMzguOTk3ICIvPjwvc3ZnPg==')
+ border-color: #ca333f;
 }
