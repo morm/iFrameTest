@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
 body {
   padding: 50px;
   font-family: 'Metrophobic', Arial, serif; font-weight: 400;
