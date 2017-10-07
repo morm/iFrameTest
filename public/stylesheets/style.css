@@ -13,3 +13,9 @@ body {
 a {
   color: #00B7FF;
 }
+
+@media(max-width: 640px) {
+    body {
+        padding: 5px;
+    }
+}
