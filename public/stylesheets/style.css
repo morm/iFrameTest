@@ -14,8 +14,8 @@ a {
   color: #00B7FF;
 }
 
-@media(max-width: 640px) {
+@media(max-width: 480px) {
     body {
-        padding: 5px;
+        padding: 0;
     }
 }
