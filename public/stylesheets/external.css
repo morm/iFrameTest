@@ -187,6 +187,11 @@ iframe {
  background-color: #d3cfcd;
 }
 
+.search-location__schedule,
+.search-location__weeks {
+	overflow:scroll;
+}
+
 .scroll-h.js-scroll-h.scroll_640h,
 .search-location__schedule {
 	width: 1px;
