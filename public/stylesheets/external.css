@@ -187,20 +187,9 @@ iframe {
  background-color: #d3cfcd;
 }
 
-.search-location__schedule,
-.search-location__weeks {
-	overflow:scroll;
-}
-
 
 @media only screen and (max-width: 480px) {
-	.time__label {
-    		width: 56px;
-    		font-size: 15px;
-	}
-	.search-location__date {
-		font-size: 16px;
-	}
+	
 	.scroll-h.js-scroll-h.scroll_640h,
 	.search-location__schedule {
 		width: 1px;
@@ -208,6 +197,10 @@ iframe {
 		max-width: 100%;
         	*width: 100%;
 	}
+	.search-location__weeks {
+		overflow: scroll;
+	}
+	/*
 	.search-location__weekday {
 		font-size: 16px;
 		font-weight: bold;
@@ -216,4 +209,12 @@ iframe {
 		width: 51px;
 		min-width: 51px;
 	}
+	.time__label {
+    		width: 56px;
+    		font-size: 15px;
+	}
+	.search-location__date {
+		font-size: 16px;
+	}
+	*/
 }
