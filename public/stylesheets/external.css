@@ -189,18 +189,16 @@ iframe {
 
 
 @media only screen and (max-width: 480px) {
-	
-	.scroll-h.js-scroll-h.scroll_640h,
-	.search-location__schedule {
-		width: 1px;
-        	min-width: 640px;
-		max-width: 100%;
-        	*width: 100%;
+
+	.search-location__schedule,
+	.search-location__weeks {
+		overflow: visible;
 	}
+	
+	/*
 	.search-location__weeks {
 		overflow: scroll;
 	}
-	/*
 	.search-location__weekday {
 		font-size: 16px;
 		font-weight: bold;
