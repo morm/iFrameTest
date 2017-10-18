@@ -193,7 +193,7 @@ iframe {
 	.scroll-h.js-scroll-h.scroll_640h,
 	.search-location__schedule {
 		width: 1px;
-        	min-width: 100%;
+        	min-width: 640px;
 		max-width: 100%;
         	*width: 100%;
 	}
