@@ -193,7 +193,7 @@ iframe {
 }
 
 
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 480px) {
 	.time__label {
     		width: 56px;
     		font-size: 15px;
