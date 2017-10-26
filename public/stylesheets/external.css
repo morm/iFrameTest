@@ -197,6 +197,14 @@ iframe {
   	-webkit-overflow-scrolling: touch;
 }
 
+.search-location__schedule {
+	min-width: 320px;
+}
+.search-location__day {
+	min-width: 82px;
+	margin: 2px;
+}
+
 @media only screen and (max-width: 480px) {
 
 	.search-location__schedule,
