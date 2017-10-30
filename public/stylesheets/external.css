@@ -14,10 +14,10 @@ iframe {
 }
 
 .page:before {
- background-image: url("https://s00.yaplakal.com/pics/pics_original/2/7/6/7773672.jpg");
+ background-image: url("https://s00.yaplakal.com/pics/pics_original/2/7/6/7773672.jpg") !important;
 }
 .page {
- background-color: rgba(0,0,0,0);
+ background-color: rgba(0,0,0,0) !important;
 }
 
 .search-request, 
