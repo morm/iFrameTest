@@ -28,17 +28,18 @@ html, body {
  background-color: #d5e9f6;
  background: #d5e9f6;
 }
- 
+
+.header__menu-toggler, 
 .footer__privacy,
 .profile__terms-link, .link {
- color: #d5e9f6 !important;
+ color: #758996 !important;
 }
 
-.header__menu-toggler,
+.header__menu-toggler:hover, 
 .link:hover, 
 .profile__terms-link:hover,
 .spa_btn-cstyle3:hover {
- color: #758996 !important;
+ color: #d5e9f6 !important;
 }
 
 .link:active,
@@ -49,11 +50,11 @@ html, body {
 }
 
 .link:visited {
- color: #d5e9f6;
+ color: #758996;
 }
 
 .select2-arrow > b::before {
- color: #d5e9f6
+ color: #758996
 }
 
 .field__icon.field__icon_map > use {
