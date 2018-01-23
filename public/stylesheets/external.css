@@ -119,6 +119,12 @@ html, body {
  background-color: #758996;
 }
 
+.time-range__bar:hover,
+.time-range__bar:focus,
+.time-range__bar:active {
+ background-color: #5589a6;
+}
+
 .time-range__track {
  background: linear-gradient(to right, #d5e9f6 0%, #758996 50%, #d5e9f6 100%);
 }
