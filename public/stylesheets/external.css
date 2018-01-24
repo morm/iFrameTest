@@ -164,11 +164,11 @@ html, body {
 .page__header-inner, .ss_green_link, .choose-provider__value,
 .ss_title, .field__label, .spa_info_red_title, .spa_info_red_date, .spa_info_red,
 .ss_info_text_container, .search-location__period, .search-location__date {
- color: #e22125 !important;
+ color: #5589a6 !important;
 }
 
 .search-location__day_today {
- border-color: #e22125 !important;
+ border-color: #5589a6 !important;
 }
 
 .select2-choice.ui-select-match, .spa_btn-cstyle3,
