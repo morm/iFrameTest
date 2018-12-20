@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    script.
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NTGTGLW');
+    title= title
+    link(href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    script(type="text/javascript").
+      var divSelector = 'frame_placeholder';// You can your selector name here instead
+        var centaurAsButton = true; // if 'true' - iframe will be hidden until button pressed
+        var centaurButtonName = 'Book Online Now'; // Optional - if centaurAsButton is 'true' and you need to overide default button caption 'Book Online'
+        var centaurButtonColour = '#D0D';
+        var centaurButtonTextColour = '#0F0';
+        var orgId = 16;
+        var centOrigin = 'https://obtest18.centaurportal.com';
+        var practiceId;
+        practiceId = 15;
+        var sourceId;
+        var centUserParams = ''; // You can place utm code or anything else you want to be in iframe URL
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.charset = 'utf-8';
+          po.src = 'https://obtest18.centaurportal.com/d4w/resources/js/iframe.js?_=1545302601971';
+          var s = document.getElementsByTagName('script')[0];
+          if (s) { s.parentNode.insertBefore(po, s); }
+          else { s = document.getElementsByTagName('head')[0]; s.appendChild(po); }
+      })();
+
+  body(style="font-family: 'Metrophobic', Arial, serif; font-weight: 400;")
+    block content
