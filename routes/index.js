@@ -8,7 +8,26 @@ router.get('/', function(req, res, next) {
   else
     res.render('index', { title: 'Express' , d4w_url: 'https://obtest18.centaurportal.com/d4w/org-16/fsearch'});
 });
+
 router.get('/popup', function(req, res, next) {
+  if(req.query.lng==='ru')
+    res.render('popup', { title: 'Express' , d4w_url: 'https://d4w-portal.ru/d4w/org-105/fsearch?practiceID=240'});
+  else
+    res.render('popup', { title: 'Express' , d4w_url: 'https://obtest18.centaurportal.com/d4w/org-16/fsearch'});
+});
+
+router.get('/prod', function(req, res, next) {
+      res.render('prod', { title: 'iFrame to production'});
+});
+
+router.get('/org-16', function(req, res, next) {
+  if(req.query.lng==='ru')
+    res.render('popup', { title: 'Express' , d4w_url: 'https://d4w-portal.ru/d4w/org-105/fsearch?practiceID=240'});
+  else
+    res.render('popup', { title: 'Express' , d4w_url: 'https://obtest18.centaurportal.com/d4w/org-16/fsearch'});
+});
+
+router.get('/ndc', function(req, res, next) {
   if(req.query.lng==='ru')
     res.render('popup', { title: 'Express' , d4w_url: 'https://d4w-portal.ru/d4w/org-105/fsearch?practiceID=240'});
   else

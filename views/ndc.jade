@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    script.
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NTGTGLW');
+    title= title
+    link(href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    script(type="text/javascript").
+      var divSelector = 'centaurIframe';// You can your selector name here instead
+      var orgId = 194;
+      var centOrigin = 'https://obtest18.centaurportal.com';
+      var practiceId;
+      var doctorId;
+
+      var sourceId;
+      var centUserParams = ''; // You can place utm code or anything else you want to be in iframe URL
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.charset = 'utf-8';
+        po.src = 'https://obtest18.centaurportal.com/d4w/resources/js/iframe.min.js?_=1548107381529';
+        var s = document.getElementsByTagName('script')[0];
+        if (s) { s.parentNode.insertBefore(po, s); }
+        else { s = document.getElementsByTagName('head')[0]; s.appendChild(po); }
+      })();
+
+  body(style="font-family: 'Metrophobic', Arial, serif; font-weight: 400;")
+    block content
+
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  div(id="centaurIframe" style="height: 900px;") //style="max-width: 100%; width: 100%; height: 900px; min-width: 100%; position: relative; display: inline-block"
+  a(href="https://obtest18.centaurportal.com/d4w/org-194/fsearchMobileFriendly") Book it now
