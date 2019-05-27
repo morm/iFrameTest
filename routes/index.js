@@ -34,4 +34,11 @@ router.get('/ndc', function(req, res, next) {
     res.render('ndc', { title: 'NDC RC' , d4w_url: 'https://obtest18.centaurportal.com/d4w/org-16/fsearch'});
 });
 
+router.get('/org-105', function(req, res, next) {
+  if(req.query.lng==='ru')
+    res.render('org-105', { title: 'LOCAL ORG-105' , d4w_url: 'https://d4w-portal.ru/d4w/org-105/fsearch?practiceID=240'});
+  else
+    res.render('org-105', { title: 'LOCAL ORG-105' , d4w_url: 'https://obtest.centaurportal.com/d4w/org-105/fsearch'});
+});
+
 module.exports = router;
