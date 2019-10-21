@@ -41,4 +41,11 @@ router.get('/org-105', function(req, res, next) {
     res.render('org-105', { title: 'LOCAL ORG-105' , d4w_url: 'https://obtest.centaurportal.com/d4w/org-105/fsearch'});
 });
 
+router.get('/org-27', function(req, res, next) {
+  if(req.query.lng==='ru')
+    res.render('org-27', { title: 'ORG-27' , d4w_url: 'https://d4w-portal.ru/d4w/org-27/fsearch?practiceID=601'});
+  else
+    res.render('org-27', { title: 'ORG-27' , d4w_url: 'https://obtest.centaurportal.com/d4w/org-27/fsearch'});
+});
+
 module.exports = router;
