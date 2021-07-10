@@ -7,12 +7,6 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     script(async src="https://www.googletagmanager.com/gtag/js?id=UA-198546757-1")
-    script.
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-198546757-1');
 
     script(type='text/javascript').
       var divSelector = 'centaurIframe';// You can your selector name here instead
@@ -30,6 +24,20 @@ html
         if (s) { s.parentNode.insertBefore(po, s); }
         else { s = document.getElementsByTagName('head')[0]; s.appendChild(po); }
       })();
+
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-198546757-1');
+      gtag('get', 'YOUR_MEASUREMENT_ID', 'client_id', (client_id) => {
+        // Gets a reference to the window object of the destionation iframe.
+        var frameWindow = document.getElementById('centaurIframe').contentWindow;
+
+        // Sends the client ID to the window inside the destination frame.
+        frameWindow.postMessage(client_id, 'https://obtest18.centaurportal.com');
+      })
 
   body(style="font-family: 'Metrophobic', Arial, serif; font-weight: 400;")
     h1= title
